@@ -1,13 +1,10 @@
-#map {
-  height: 500px;
+body {
+	margin: 40px 40px 0 40px;
+	background-color: #4FB0C6;
 }
-
-@media (max-width: 760px) {
-  body {
-      padding: 0;
-      margin: 0;
-  }
-  html, body, #map {
-      height: 100%;
-  }
+img{
+	margin-left: 20px;
+}
+#map { 
+	height: 580px;
 }

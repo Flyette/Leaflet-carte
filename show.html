@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"></meat>
+	<link rel="stylesheet" type="text/css" href="bower_components/semantic/dist/semantic.min.css">
+
+	<title>Ajouter Nouveau Patient</title>
+</head>
+<body>
+	<style type="text/css">
+		body{
+			margin: 40px 20px 0 20px;
+
+			background-color: #4FB0C6;
+		}
+		form{
+			margin-top: 50px;
+
+		}
+		p{
+			font-size: 20px;
+		}
+	</style>
+	<div class="massive ui vertical menu">
+		<div class="ui dropdown item">
+			France
+			<i class="dropdown icon"></i>
+			<div class="menu">
+				<a class="item">Maroc</a>
+				<a class="item">Sénégal</a>
+				<a class="item">Burkina Fasso</a>
+				<a class="item">Algérie</a>
+			</div>
+		</div>
+	</div>
+	<!--menu horizontal-->
+	<div class="ui menu">
+		<img height="80px" alt="logo medtrucks" src="src/rond.png">
+		<div class="menu">
+			<a class="item">Liste des patients</a>
+			<a class="item">Nouveau Patient</a>
+		</div>
+		<div class="right menu">
+			<a class="item">Sign Up</a>
+			<a class="item">Help</a>
+		</div>
+	</div>
+	<div class="ui centered grid">
+		<div class="ten wide column">
+			<form class="ui form" action="validation.html" method="post">
+				<h2 class="ui dividing header">Enregistrez un nouveau patient</h2>
+				<div class="field">
+					<div class="two fields">
+						<div class="field">
+							<label for="nom">Nom</label>
+							<p>Galino</p>
+						</div>
+						<div class="field">
+							<label for="prenom">Prénom</label>
+							<p>Pierre</p>
+						</div>
+					</div>
+					<div class="two fields">
+						<div class="field">
+							<div class="field">
+								<label for="male">Genre</label>
+								<p>Masculin</p>
+							</div>
+						</div>
+						<div class="field">
+							<label for="naissance">Date de naissance</label>
+							<p>09/06/1980</p>
+						</div>
+					</div>
+					<div class="two fields">
+						<div class="field">
+							<label for="medecin">Médecin</label>
+							<p>Dr Dagober</p>
+						</div>
+						<div class="field">
+							<label for="Hopital/Centre médical">Hôpital/Centre Médical</label>
+							<p>Clinique Pasteur</p>
+						</div>
+					</div>
+					<div class="field">
+						<label for="phone">Téléphone</label>
+						<p>0980764567</p>
+					</div>
+					<div class="two fields">
+						<div class="field">
+							<label for="adresse">Adresse</label>
+							<p>40 rue du Paradis</p>
+						</div>
+						<div class="field">
+							<label for="ville">Ville/Lieu-dit</label>
+							<p>Royens</p>
+						</div>
+					</div>
+					<div class="two fields">
+						<div class="field">
+							<label for="code_postal">Code Postal</label>
+							<p>33690</p>
+						</div>
+						<div class="field">
+							<label for="pays">Pays</label>
+							<p>France</p>
+						</div>
+					</div>
+					<div class="field">
+						<label for="commentaire">Commentaire/Observations</label>
+						<textarea id="message" name="commentaire">Une prise de sang par mois pour analyse.</textarea>
+					</div>
+					<div class="two fields">
+						<div class="field">
+							<div>
+								<button class="ui orange button"><i class="icon checkmark"></i>Planifier</button>
+							</div>
+							<div class="field">
+								<div>
+									<button class="ui blue button"><i class="icon checkmark"></i>Editer</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+ <script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="bower_components/semantic/dist/semantic.min.js"</script>
+			<script type="text/javascript" src="script.js"></script>
+		</body>
+		</html>

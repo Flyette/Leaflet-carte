@@ -1,4 +1,10 @@
 $(document).ready(function() {
+  $('.ui.dropdown').dropdown();
+  $('.color_pays').on('click', function(e){
+    e.preventDefault();
+    $('body').css('background-color', $(this).attr('data-color'));
+  });
+
   map = new L.Map('map');
 
   var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
